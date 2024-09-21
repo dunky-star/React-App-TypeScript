@@ -1,4 +1,4 @@
-export class Customer {
+export abstract class Customer {
   //   private firstName: string;
   //   private lastName: string;
   //   private email: string;
@@ -26,7 +26,5 @@ export class Customer {
     this.email = email;
   }
 
-  getInfo(): string {
-    return "Customer Info: ";
-  }
+  abstract getInfo(): string;
 }

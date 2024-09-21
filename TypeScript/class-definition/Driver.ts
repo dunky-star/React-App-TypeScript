@@ -2,10 +2,10 @@ import { Customer } from "./Customer";
 import { GoldCustomer } from "./GoldCustomer";
 import { SilverCustomer } from "./SilverCustomer";
 // Creating an instance
-let myCustomer = new Customer("Lion", "King", "king@mail.com");
-myCustomer.setEmail("dunky@yy.com");
-console.log(`Customer first name:   ${myCustomer.getFirstName()}`);
-console.log(myCustomer);
+//let myCustomer = new Customer("Lion", "King", "king@mail.com");
+//myCustomer.setEmail("dunky@yy.com");
+// console.log(`Customer first name:   ${myCustomer.getFirstName()}`);
+// console.log(myCustomer);
 
 let goldCustomer = new GoldCustomer(
   "Gold",

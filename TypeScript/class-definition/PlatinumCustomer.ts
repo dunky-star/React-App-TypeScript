@@ -12,6 +12,6 @@ export class PlatinumCustomer extends Customer {
   }
 
   getInfo(): string {
-    return super.getInfo() + `Brand = ${this.brand}`;
+    return `Brand = ${this.brand}`;
   }
 }

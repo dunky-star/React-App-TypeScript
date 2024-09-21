@@ -1,43 +1,36 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Customer = void 0;
 var Customer = /** @class */ (function () {
+    //   private firstName: string;
+    //   private lastName: string;
+    //   private email: string;
     function Customer(firstName, lastName, email) {
-        this._firstName = firstName;
-        this._lastName = lastName;
-        this._email = email;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
     }
-    Object.defineProperty(Customer.prototype, "firstName", {
-        get: function () {
-            return this._firstName;
-        },
-        set: function (firstName) {
-            this._firstName = firstName;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Customer.prototype, "lastName", {
-        get: function () {
-            return this._lastName;
-        },
-        set: function (lastName) {
-            this._lastName = lastName;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Customer.prototype, "email", {
-        get: function () {
-            return this._email;
-        },
-        set: function (email) {
-            this._email = email;
-        },
-        enumerable: false,
-        configurable: true
-    });
+    Customer.prototype.getFirstName = function () {
+        return this.firstName;
+    };
+    Customer.prototype.setFirstName = function (firstName) {
+        this.firstName = firstName;
+    };
+    Customer.prototype.getLastName = function () {
+        return this.lastName;
+    };
+    Customer.prototype.setLastName = function (lastName) {
+        this.lastName = lastName;
+    };
+    Customer.prototype.getEmail = function () {
+        return this.email;
+    };
+    Customer.prototype.setEmail = function (email) {
+        this.email = email;
+    };
+    Customer.prototype.getInfo = function () {
+        return "Customer Info: ";
+    };
     return Customer;
 }());
-// Creating an instance
-var myCustomer = new Customer("Lion", "King", "king@mail.com");
-myCustomer.email = "dunky@yy.com";
-console.log("Customer first name:   ".concat(myCustomer.firstName));
-console.log(myCustomer);
+exports.Customer = Customer;

@@ -1,12 +1,12 @@
-class Customer {
-  private firstName: string;
-  private lastName: string;
-  private email: string;
-  constructor(firstName: string, lastName: string, email: string) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.email = email;
-  }
+export class Customer {
+  //   private firstName: string;
+  //   private lastName: string;
+  //   private email: string;
+  constructor(
+    private firstName: string,
+    private lastName: string,
+    private email: string
+  ) {}
   public getFirstName(): string {
     return this.firstName;
   }
@@ -25,10 +25,8 @@ class Customer {
   public setEmail(email: string): void {
     this.email = email;
   }
-}
 
-// Creating an instance
-let myCustomer = new Customer("Lion", "King", "king@mail.com");
-myCustomer.setEmail("dunky@yy.com");
-console.log(`Customer first name:   ${myCustomer.getFirstName()}`);
-console.log(myCustomer);
+  getInfo(): string {
+    return "Customer Info: ";
+  }
+}

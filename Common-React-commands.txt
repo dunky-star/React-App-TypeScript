@@ -24,6 +24,7 @@ TYPESCRIPT:
 	
  b) tsc --noEmitOnError filename.ts 
  c) tsc --init // To generate a tsconfig.json file
+ d) tsc --build --clean
 
 
 

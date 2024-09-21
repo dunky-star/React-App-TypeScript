@@ -1,0 +1,29 @@
+1. npm create vite@latest
+2. rafce -> For auto templating\
+3. npm i react-router-dom
+4. npm install -g typescript -> To install TypeScript Globally
+5. npm install @reduxjs/toolkit react-redux
+7. https://panda-css.com/
+8. www.typescriptlang.org
+
+
+Diffing Algo -> React Algorithm
+[Reconcialiation Process]
+Prop drilling -> It is hard to maintain.
+
+Context API (The problem is always keep on wrapping your app component in every context that you create)
+
+Redux => Global State Management Library [Store - multiple states, Reducer is more like a repository, Action]
+
+
+
+TYPESCRIPT:
+***********
+ a) Converting TypeScript Code to JavaScript Code is known as [Transpiling] => Translating/Transpiling.
+    Transpiling is accomplished by tsc command.
+	
+ b) tsc --noEmitOnError filename.ts 
+ c) tsc --init // To generate a tsconfig.json file
+
+
+

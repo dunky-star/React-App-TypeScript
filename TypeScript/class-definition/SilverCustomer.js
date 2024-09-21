@@ -15,19 +15,19 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.PlatinumCustomer = void 0;
+exports.SilverCustomer = void 0;
 var Customer_1 = require("./Customer");
-var PlatinumCustomer = /** @class */ (function (_super) {
-    __extends(PlatinumCustomer, _super);
-    function PlatinumCustomer(firstName, lastName, email, brand) {
+var SilverCustomer = /** @class */ (function (_super) {
+    __extends(SilverCustomer, _super);
+    function SilverCustomer(firstName, lastName, email, brand) {
         var _this = _super.call(this, firstName, lastName, email) || this;
         _this.brand = brand;
         _this.brand = brand;
         return _this;
     }
-    PlatinumCustomer.prototype.getInfo = function () {
+    SilverCustomer.prototype.getInfo = function () {
         return _super.prototype.getInfo.call(this) + "Brand = ".concat(this.brand);
     };
-    return PlatinumCustomer;
+    return SilverCustomer;
 }(Customer_1.Customer));
-exports.PlatinumCustomer = PlatinumCustomer;
+exports.SilverCustomer = SilverCustomer;

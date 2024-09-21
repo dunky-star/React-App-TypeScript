@@ -1,6 +1,6 @@
 import { Customer } from "./Customer";
 
-export class PlatinumCustomer extends Customer {
+export class SilverCustomer extends Customer {
   constructor(
     firstName: string,
     lastName: string,

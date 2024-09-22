@@ -1,3 +1,6 @@
+CURIOUSITY, A DRIVE FOR INNOVATION & A KEEN EYE FOR DETAIL:
+***********************************************************
+
 1. npm create vite@latest
 2. rafce -> For auto templating\
 3. npm i react-router-dom

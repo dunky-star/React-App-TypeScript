@@ -26,7 +26,7 @@ var GoldCustomer = /** @class */ (function (_super) {
         return _this;
     }
     GoldCustomer.prototype.getInfo = function () {
-        return _super.prototype.getInfo.call(this) + " Brand = ".concat(this.brand);
+        return " Brand = ".concat(this.brand);
     };
     return GoldCustomer;
 }(Customer_1.Customer));

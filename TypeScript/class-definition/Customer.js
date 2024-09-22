@@ -28,9 +28,6 @@ var Customer = /** @class */ (function () {
     Customer.prototype.setEmail = function (email) {
         this.email = email;
     };
-    Customer.prototype.getInfo = function () {
-        return "Customer Info: ";
-    };
     return Customer;
 }());
 exports.Customer = Customer;

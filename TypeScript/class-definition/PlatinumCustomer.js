@@ -26,7 +26,7 @@ var PlatinumCustomer = /** @class */ (function (_super) {
         return _this;
     }
     PlatinumCustomer.prototype.getInfo = function () {
-        return _super.prototype.getInfo.call(this) + "Brand = ".concat(this.brand);
+        return "Brand = ".concat(this.brand);
     };
     return PlatinumCustomer;
 }(Customer_1.Customer));

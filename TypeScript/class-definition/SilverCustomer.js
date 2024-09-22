@@ -26,7 +26,7 @@ var SilverCustomer = /** @class */ (function (_super) {
         return _this;
     }
     SilverCustomer.prototype.getInfo = function () {
-        return _super.prototype.getInfo.call(this) + "Brand = ".concat(this.brand);
+        return "Brand = ".concat(this.brand);
     };
     return SilverCustomer;
 }(Customer_1.Customer));

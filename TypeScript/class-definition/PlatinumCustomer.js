@@ -25,6 +25,9 @@ var PlatinumCustomer = /** @class */ (function (_super) {
         _this.brand = brand;
         return _this;
     }
+    PlatinumCustomer.prototype.getDailyWorkout = function () {
+        return "Hit 100 balls at the Golf range.";
+    };
     PlatinumCustomer.prototype.getInfo = function () {
         return "Brand = ".concat(this.brand);
     };

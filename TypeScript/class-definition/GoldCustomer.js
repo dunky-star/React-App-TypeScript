@@ -25,6 +25,9 @@ var GoldCustomer = /** @class */ (function (_super) {
         _this.brand;
         return _this;
     }
+    GoldCustomer.prototype.getDailyWorkout = function () {
+        return "Practice your new Bowling technique.";
+    };
     GoldCustomer.prototype.getInfo = function () {
         return " Brand = ".concat(this.brand);
     };

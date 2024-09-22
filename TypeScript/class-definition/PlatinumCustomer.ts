@@ -1,6 +1,7 @@
+import { Coach } from "./Coach";
 import { Customer } from "./Customer";
 
-export class PlatinumCustomer extends Customer {
+export class PlatinumCustomer extends Customer implements Coach {
   constructor(
     firstName: string,
     lastName: string,
@@ -9,6 +10,9 @@ export class PlatinumCustomer extends Customer {
   ) {
     super(firstName, lastName, email);
     this.brand = brand;
+  }
+  getDailyWorkout(): string {
+    return "Hit 100 balls at the Golf range.";
   }
 
   getInfo(): string {

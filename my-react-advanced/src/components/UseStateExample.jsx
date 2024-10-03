@@ -1,11 +1,19 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export const UseStateExample = () => {
   const [value, setValue] = useState(0);
 
   const handleClick = () => {
-    setValue(value + 1);
-    console.log(value);
+    setValue((currentState) => {
+      const newValue = currentState + 1;
+      //
+
+      return newValue;
+    });
   };
+
+  useEffect(() => {
+    console.log("From use effect function");
+  }, []);
 
   return (
     <div>

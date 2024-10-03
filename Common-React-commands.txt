@@ -1,13 +1,17 @@
 CURIOUSITY, A DRIVE FOR INNOVATION & A KEEN EYE FOR DETAIL:
 ***********************************************************
 
+https://github.com/john-smilga/react-course-v3
+
+
 1. npm create vite@latest
-2. rafce -> For auto templating\
+2. rafce -> arrow func with export\rfce - regular func with export
 3. npm i react-router-dom
 4. npm install -g typescript -> To install TypeScript Globally
 5. npm install @reduxjs/toolkit react-redux
 7. https://panda-css.com/
 8. www.typescriptlang.org
+9. https://getbootstrap.com/ --> Bootstrap website
 
 
 Diffing Algo -> React Algorithm
@@ -28,6 +32,14 @@ TYPESCRIPT:
  b) tsc --noEmitOnError filename.ts 
  c) tsc --init // To generate a tsconfig.json file
  d) tsc --build --clean
+ e) npx create-react-app my-app --template typescript --> To create a react TypeScript project
+ f) npm install --save typescript @types/node @types/react @types/react-dom @types/jest  --> To integrate TypeScript with React
+ g) npx tsc --init  --> To initialize TypeScript in the tsconfig.json
 
 
-
+EXTENSION:
+**********
+a) Auto Rename Tag
+b) Highlight Matching Tag
+c) ES7 React/Redux/GraphQL/React-Native Snippet
+d) Emmet

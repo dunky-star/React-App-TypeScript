@@ -1,5 +1,6 @@
 import "./App.css";
-import { UseEffectExample } from "./components/UseEffectExample";
+import { UseEffectCustomHook } from "./components/UseEffectCustomHook";
+
 import { UseStateArrayExample } from "./components/UseStateArrayExample";
 import { UseStateExample } from "./components/UseStateExample";
 
@@ -10,7 +11,7 @@ export const App = () => {
         <h1>React Advanced:</h1>
         <UseStateExample />
         <UseStateArrayExample />
-        <UseEffectExample />
+        <UseEffectCustomHook />
       </div>
     </>
   );

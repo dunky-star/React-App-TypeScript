@@ -12,6 +12,7 @@ https://github.com/john-smilga/react-course-v3
 7. https://panda-css.com/
 8. www.typescriptlang.org
 9. https://getbootstrap.com/ --> Bootstrap website
+10. https://icons.getbootstrap.com/ --> Bootstrap Icons
 
 
 Diffing Algo -> React Algorithm
@@ -43,3 +44,14 @@ a) Auto Rename Tag
 b) Highlight Matching Tag
 c) ES7 React/Redux/GraphQL/React-Native Snippet
 d) Emmet
+
+
+
+
+INTEGRATING OKTA/OAuth2/OIDC TO REACT APP:
+******************************************
+=> AuditTTRS@2024!
+testuser@email.com | Qwerty@123!
+a) npm install @okta/okta-signin-widget  --> Okta Signin Widget
+b) npm install @okta/okta-react --> Okta React SDK
+c) npm list @okta/okta-signin-widget

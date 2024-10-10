@@ -1,8 +1,8 @@
-import { useFetchData } from "./hooks/useFetchData";
+import { useFetch } from "./hooks/useFetch";
 
 const url = "https://api.github.com/users";
 export const UseEffectCustomHook = () => {
-  const { isLoading, isError, users } = useFetchData(url); // Calling custom hook
+  const { isLoading, isError, data } = useFetch(url); // Calling custom hook
   if (isLoading) {
     return <h2>Loading...</h2>;
   }
@@ -15,7 +15,7 @@ export const UseEffectCustomHook = () => {
     <section>
       <h3>github users</h3>
       <ul className="users">
-        {users.map((user) => {
+        {data.map((user) => {
           const { id, login, avatar_url, html_url } = user;
           return (
             <li key={id}>

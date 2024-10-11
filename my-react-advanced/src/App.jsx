@@ -1,7 +1,8 @@
 import "./App.css";
 import { UseEffectCustomHook } from "./components/UseEffectCustomHook";
 
-import { UseStateArrayExample } from "./components/UseStateArrayExample";
+import { ReducerBasics } from "./components/ReducerBasics";
+
 import { UseStateExample } from "./components/UseStateExample";
 
 export const App = () => {
@@ -10,7 +11,7 @@ export const App = () => {
       <div>
         <h1>React Advanced:</h1>
         <UseStateExample />
-        <UseStateArrayExample />
+        <ReducerBasics />
         <UseEffectCustomHook />
       </div>
     </>

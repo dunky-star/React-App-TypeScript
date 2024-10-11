@@ -55,3 +55,9 @@ testuser@email.com | Qwerty@123!
 a) npm install @okta/okta-signin-widget  --> Okta Signin Widget
 b) npm install @okta/okta-react --> Okta React SDK
 c) npm list @okta/okta-signin-widget
+
+
+
+
+CONTEXT API TO MITIGATE PROPS BRILLING:
+***************************************

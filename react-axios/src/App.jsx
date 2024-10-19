@@ -2,6 +2,7 @@ import "./App.css";
 import Title from "./components/Title";
 import Setup from "./examples/1-first-request";
 import Headers from "./examples/2-headers";
+import PostRequest from "./examples/3-post-request";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Title />
       <Setup />
       <Headers />
+      <PostRequest />
     </div>
   );
 };

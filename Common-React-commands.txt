@@ -61,3 +61,25 @@ c) npm list @okta/okta-signin-widget
 
 REACT PERFORMANCE OPTIMIZATION:
 *******************************
+
+
+
+
+
+
+#### AXIOS Library:
+*******************
+
+- import axios
+
+- axios.get(url)
+- axios.post(url)
+- axios.patch/put(url)
+- axios.delete(url)
+
+- default get axios(url)
+
+- returns a promise
+- response data located in data property
+- error in error.response
+

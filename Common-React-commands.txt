@@ -13,6 +13,7 @@ https://github.com/john-smilga/react-course-v3
 8. www.typescriptlang.org
 9. https://getbootstrap.com/ --> Bootstrap website
 10. https://icons.getbootstrap.com/ --> Bootstrap Icons
+11. Install Redux Dev Tool in Google Chrome.
 
 
 Diffing Algo -> React Algorithm

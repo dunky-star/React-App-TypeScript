@@ -17,9 +17,9 @@ List.propTypes = {
     PropTypes.shape({
       id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
-      age: PropTypes.number.isRequired,
-      image: PropTypes.string.isRequired,
+      // Add any other properties used in the person object here
     })
   ).isRequired,
 };
+
 export default List;
